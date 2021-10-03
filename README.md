@@ -40,15 +40,15 @@ add_numbering_to_pdf("old_file.pdf", "test/new_file.pdf")
 position - position on screen (left, center, right)
 
 ```python
-add_numbering_to_pdf("old_file.pdf", "old_file.pdf", position="left")
+add_numbering_to_pdf("old_file.pdf", "new_file.pdf", position="left")
 ```
 
 ```python
-add_numbering_to_pdf("old_file.pdf", "old_file.pdf", position="center")
+add_numbering_to_pdf("old_file.pdf", "new_file.pdf", position="center")
 ```
 
 ```python
-add_numbering_to_pdf("old_file.pdf", "old_file.pdf", position="right")
+add_numbering_to_pdf("old_file.pdf", "new_file.pdf", position="right")
 ```
 
 ---
@@ -56,28 +56,28 @@ add_numbering_to_pdf("old_file.pdf", "old_file.pdf", position="right")
 start_page - from which page number will the numbering be added
 
 ```python
-add_numbering_to_pdf("old_file.pdf", "old_file.pdf", start_page=3)
+add_numbering_to_pdf("old_file.pdf", "new_file.pdf", start_page=3)
 ```
 
 ---
 end_page - on which page number will the numbering be completed
 
 ```python
-add_numbering_to_pdf("old_file.pdf", "old_file.pdf", end_page=10)
+add_numbering_to_pdf("old_file.pdf", "new_file.pdf", end_page=10)
 ```
 
 ---
 start_index - which number will the page numbering start from
 
 ```python
-add_numbering_to_pdf("old_file.pdf", "old_file.pdf", start_index=4)
+add_numbering_to_pdf("old_file.pdf", "new_file.pdf", start_index=4)
 ```
 
 ---
 size - number size
 
 ```python
-add_numbering_to_pdf("old_file.pdf", "old_file.pdf", size=25)
+add_numbering_to_pdf("old_file.pdf", "new_file.pdf", size=25)
 ```
 
 ---
@@ -89,5 +89,5 @@ Times-Roman, Times-Bold, Times-Italic, Times-BoldItalic,
 Symbol, ZapfDingbats
 
 ```python
-add_numbering_to_pdf("old_file.pdf", "old_file.pdf", font="Courier")
+add_numbering_to_pdf("old_file.pdf", "new_file.pdf", font="Courier")
 ```

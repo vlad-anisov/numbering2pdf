@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='numbering2pdf',
-    version='1.0.0',
+    version='1.0.2',
     packages=['numbering2pdf'],
     url='https://github.com/vlad-anisov/numbering2pdf',
     license='Apache 2.0',

@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+numbering2pdf/__init__.py
+numbering2pdf/numbering2pdf.py
+numbering2pdf.egg-info/PKG-INFO
+numbering2pdf.egg-info/SOURCES.txt
+numbering2pdf.egg-info/dependency_links.txt
+numbering2pdf.egg-info/requires.txt
+numbering2pdf.egg-info/top_level.txt

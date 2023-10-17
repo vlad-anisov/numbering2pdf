@@ -61,8 +61,8 @@ def get_width_of_pages(original_pdf, position) -> list:
     """Returns width of pages"""
     width_of_pages = []
     for index in range(original_pdf.getNumPages()):
-        ratio = original_pdf.getPage(index).mediaBox.getWidth() / 200
-        width = position_to_width[position] * ratio * mm
+        ratio = original_pdf.getPage(index).mediaBox.getWidth() / 200 #< CAUTION: returns Decimal that, strange enough
+        width = position_to_width[position] * float(ratio) * mm       #< ... can't be multiplied by floats!
         width_of_pages.append(width)
     return width_of_pages
 

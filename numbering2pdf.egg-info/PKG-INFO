@@ -6,7 +6,6 @@ Home-page: https://github.com/vlad-anisov/numbering2pdf
 Author: Vlad Anisov
 Author-email: anisoffgo@gmail.com
 License: Apache 2.0
-Platform: UNKNOWN
 Description-Content-Type: text/markdown
 
 numbering2pdf adds numbering to pdf file
@@ -102,4 +101,3 @@ Symbol, ZapfDingbats
 ```python
 add_numbering_to_pdf("old_file.pdf", "new_file.pdf", font="Courier")
 ```
-
